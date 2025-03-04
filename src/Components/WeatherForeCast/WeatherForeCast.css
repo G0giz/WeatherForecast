@@ -1,0 +1,111 @@
+.WeatherForeCast {
+	
+}
+
+.headerCity {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    font-size: 2.5rem; /* Adjust the size as needed */
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow to make the text pop */
+    text-transform: uppercase; /* Optional: makes the text all caps */
+    margin: 0 auto;
+  }
+  
+  .headerCity {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds text shadow for better contrast */
+  }
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.search-button {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background for visibility */
+    color: white; /* White text/icon */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adequate padding for a clickable button */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.2rem; /* Larger font for better readability */
+    cursor: pointer; /* Pointer cursor to indicate it's clickable */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-button:hover {
+    background: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  .search-button i {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  .search-button:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Focus outline effect for better accessibility */
+  }
+  
+
+.MuiTextField-root {
+    width: 250px; /* Adjust input field width if needed */
+}
+
+.css-1tlcqt-MuiAutocomplete-root{
+    width: 12% !important;
+}
+
+
+
+
+
+.autoCompleteStyle {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Set a max width for the autocomplete box */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background to improve visibility */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Shadow to give the input depth */
+  }
+  
+  .autoCompleteStyle .MuiOutlinedInput-root {
+    background: rgba(255, 255, 255, 0.8); /* Light background for input field */
+  }
+  
+  .autoCompleteStyle .MuiOutlinedInput-input {
+    color: #333; /* Dark text color for visibility */
+  }
+  
+  .autoCompleteStyle .MuiInputLabel-root {
+    color: rgb(18, 11, 11); /* White label color */
+  }
+  
+  .autoCompleteStyle .MuiFormHelperText-root {
+    color: white; /* White helper text color */
+  }
+  
+  .autoCompleteStyle .MuiAutocomplete-inputRoot {
+    background: rgba(255, 255, 255, 0.8); /* Input background */
+  }
+  
+  .autoCompleteStyle .MuiAutocomplete-popupIndicator {
+    color: white; /* White dropdown arrow */
+  }
+  
+  .autoCompleteStyle .MuiAutocomplete-option {
+    background: rgba(0, 0, 0, 0.7); /* Dark option background for contrast */
+    color: white;
+  }
+  
+  .autoCompleteStyle .MuiAutocomplete-option.Mui-focused {
+    background: rgba(0, 0, 0, 0.9); /* Darker background when an option is focused */
+  }

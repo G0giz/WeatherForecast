@@ -1,0 +1,15 @@
+[
+    { "condition": "Clear", "image": "/images/sun.png" },
+    { "condition": "Partially cloudy", "image": "/images/freezing_rain.png" },
+    { "condition": "Overcast", "image": "/images/cloudy.png" },
+    { "condition": "Rain", "image": "/images/rain.png" },
+    { "condition": "Snow", "image": "/images/snow.png" },
+    { "condition": "Thunderstorms", "image": "/images/storm.png" },
+    { "condition": "Fog", "image": "/images/fog.png" },
+    { "condition": "Haze", "image": "/images/haze.png" },
+    { "condition": "Drizzle", "image": "/images/drizzle.png" },
+    { "condition": "Sleet", "image": "/images/sleet.png" },
+    { "condition": "Freezing rain", "image": "/images/freezing_rain.png" },
+    { "condition": "Windy", "image": "/images/Windy.png" }
+  ]
+  

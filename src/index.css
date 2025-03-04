@@ -1,0 +1,33 @@
+html,body,#root{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgb(101, 101, 224),rgb(208, 205, 212));
+    width: 100%;
+    background-image: url('../src/assets/images/weatherBackground.jpg');
+}
+
+a{
+    color: blue;
+}
+
+form{
+   width: 300px;
+   margin: 20px auto;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px;
+   text-align: left;
+}
+
+form > input,form > button{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+
+

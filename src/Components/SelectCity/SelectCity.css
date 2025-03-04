@@ -1,0 +1,38 @@
+.SelectCity {
+    margin-top: 15px;
+    position: relative; /* Ensures the dropdown appears correctly below the input */
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+
+.search-button {
+    margin-left: 3px;
+    margin-bottom: 25px;
+    padding: 10px 20px; /* Increase size of button */
+    font-size: 16px; /* Make text inside the button bigger */
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    background-color: #45a049; /* Hover effect */
+}
+
+.MuiTextField-root {
+    width: 250px; /* Adjust input field width if needed */
+}
+
+
+
+
+
+
+  
