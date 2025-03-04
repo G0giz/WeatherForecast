@@ -1,4 +1,3 @@
-import { useSelector, useDispatch } from 'react-redux';
 import "./WeatherForeCast.css";
 import { useEffect, useState } from 'react';
 import { weatherService } from '../../Services/WeatherService';
