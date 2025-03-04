@@ -40,7 +40,7 @@ const weatherConditions = [
 
 export function WeatherCard(props: WeatherCardProps): JSX.Element { 
 
-    const[city,setCity] = useState(props.weather.days);
+    const[,setCity] = useState(props.weather.days);
 
     useEffect(() => {
         setCity(props.weather.days);

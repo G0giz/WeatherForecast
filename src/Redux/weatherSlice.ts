@@ -2,7 +2,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { CityWeather } from '../Models/CityWeather';
 
-export function initWeather(currentState: CityWeather[],action:PayloadAction<CityWeather[]>): CityWeather[]{
+export function initWeather(_currentState: CityWeather[],action:PayloadAction<CityWeather[]>): CityWeather[]{
     const cityString = action.payload;
     const newState = cityString;
     return newState;
