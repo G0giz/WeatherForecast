@@ -2,8 +2,6 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import "./Routing.css";
 import { Home } from "../../HomeArea/Home/Home";
 import { WeatherForeCast } from "../../WeatherForeCast/WeatherForeCast";
-import { Menu } from "../Menu/Menu";
-import { SelectCity } from "../../SelectCity/SelectCity";
 
 export function Routing(): JSX.Element {
     return (

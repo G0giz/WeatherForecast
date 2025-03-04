@@ -1,5 +1,4 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { AppState } from '../../Redux/Store';
 import "./WeatherForeCast.css";
 import { useEffect, useState } from 'react';
 import { weatherService } from '../../Services/WeatherService';
@@ -11,7 +10,7 @@ import { SelectCity } from '../SelectCity/SelectCity';
 export function WeatherForeCast(): JSX.Element {
     const [city, setCity] = useState<string>("תל אביב");
     const [daysWeather, setDaysWeather] = useState<CityWeather>(null);
-    const [input, setInput] = useState<string>(""); // Track input state in parent
+    const [, setInput] = useState<string>(""); // Track input state in parent
 
     useEffect(() => {
         try {
